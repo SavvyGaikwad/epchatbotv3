@@ -177,11 +177,11 @@ class ProfessionalChatbot:
                     persist_directory=self.vector_db_path, 
                     embedding_function=self.embedding_model
                 )
-                status_text = "✅ Knowledge base connected" if st.session_state.get('language', 'English') == 'English' else "✅ ナレッジベースに接続しました"
-                st.markdown(
-                    f'<div class="status-indicator status-success">{status_text}</div>', 
-                    unsafe_allow_html=True
-                )
+               # status_text = "✅ Knowledge base connected" if st.session_state.get('language', 'English') == 'English' else "✅ ナレッジベースに接続しました"
+               # st.markdown(
+               #     f'<div class="status-indicator status-success">{status_text}</div>', 
+               #     unsafe_allow_html=True
+                #)
                 logger.info(f"Vector database loaded from {self.vector_db_path}")
             else:
                 error_text = "Knowledge base not found. Please contact system administrator." if st.session_state.get('language', 'English') == 'English' else "ナレッジベースが見つかりません。システム管理者にお問い合わせください。"
