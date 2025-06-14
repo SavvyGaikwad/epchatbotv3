@@ -337,7 +337,7 @@ class ProfessionalChatbot:
                         </div>
                         """, unsafe_allow_html=True)
                     else:
-                        st.image(img, use_column_width=True)
+                        st.image(img, use_container_width=True)
             return True
         except Exception as e:
             logger.error(f"Image display error: {e}")
