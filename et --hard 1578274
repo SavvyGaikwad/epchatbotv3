@@ -1,0 +1,79 @@
+[33mcbb48e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: pull origin main --rebase (finish): returning to refs/heads/main
+[33mcbb48e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: pull origin main --rebase (start): checkout cbb48e24642158c219d525a9bafff3b0dec8a784
+[33m1578274[m HEAD@{2}: Branch: renamed refs/heads/main to refs/heads/main
+[33m1578274[m HEAD@{4}: rebase (abort): returning to refs/heads/main
+[33m53266e5[m HEAD@{5}: pull --rebase origin main (pick): Create p.txt
+[33mcbb48e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{6}: pull --rebase origin main (start): checkout cbb48e24642158c219d525a9bafff3b0dec8a784
+[33m1578274[m HEAD@{7}: Branch: renamed refs/heads/main to refs/heads/main
+[33m1578274[m HEAD@{9}: commit: after fixing dependencies
+[33m466eb9a[m HEAD@{10}: Branch: renamed refs/heads/main to refs/heads/main
+[33m466eb9a[m HEAD@{12}: Branch: renamed refs/heads/main to refs/heads/main
+[33m466eb9a[m HEAD@{14}: commit: req
+[33m779872a[m HEAD@{15}: Branch: renamed refs/heads/main to refs/heads/main
+[33m779872a[m HEAD@{17}: commit: commit
+[33mcc95c92[m HEAD@{18}: pull --rebase origin main (finish): returning to refs/heads/main
+[33mcc95c92[m HEAD@{19}: pull --rebase origin main (pick): 1st
+[33m227f067[m HEAD@{20}: pull --rebase origin main (pick): app
+[33m9700feb[m HEAD@{21}: pull --rebase origin main (pick): app
+[33mbb9c741[m HEAD@{22}: pull --rebase origin main (pick): req
+[33m65c9abf[m HEAD@{23}: pull --rebase origin main (pick): Create config.toml
+[33m77e0e83[m HEAD@{24}: pull --rebase origin main (pick): app and req
+[33m556596c[m HEAD@{25}: pull --rebase origin main (pick): app
+[33me53868b[m HEAD@{26}: pull --rebase origin main (pick): updated app and req
+[33m51d73d3[m HEAD@{27}: pull --rebase origin main (pick): because uncompatible types
+[33mb1735a3[m HEAD@{28}: pull --rebase origin main (pick): because uncompatible types
+[33me4f25d5[m HEAD@{29}: pull --rebase origin main (pick): Because of a .
+[33m7a23b27[m HEAD@{30}: pull --rebase origin main (pick): Add more edits for torch
+[33m716afcc[m HEAD@{31}: pull --rebase origin main (pick): Torch edited for 313
+[33m19ab0cb[m HEAD@{32}: pull --rebase origin main (pick): Torch requirements
+[33mebf5606[m HEAD@{33}: pull --rebase origin main (pick): Shorter requirements.txt
+[33me57f436[m HEAD@{34}: pull --rebase origin main (pick): Fix torch & facenet-pytorch version conflict
+[33m5cb3643[m HEAD@{35}: pull --rebase origin main (pick): Set Python version to 3.12
+[33m0b11ec6[m HEAD@{36}: pull --rebase origin main (pick): Set Python version to 3.12
+[33m7c1a316[m HEAD@{37}: pull --rebase origin main (pick): Use pysqlite3 to fix sqlite version issues
+[33mdde8784[m HEAD@{38}: pull --rebase origin main (pick): Update database and add p.py script
+[33mddf53db[m HEAD@{39}: pull --rebase origin main (pick): the actual older version
+[33m2aac20e[m HEAD@{40}: pull --rebase origin main (pick): back to older
+[33maf2dfce[m HEAD@{41}: pull --rebase origin main (pick): Update requirements.txt
+[33m522eadc[m HEAD@{42}: pull --rebase origin main (pick): Update streamlit_app.py
+[33meb69691[m HEAD@{43}: pull --rebase origin main (pick): Added Dev Container Folder
+[33mb7ed1f3[m HEAD@{44}: pull --rebase origin main (pick): Update dataset in comprehensive_vector_db folder
+[33m7f823cf[m HEAD@{45}: pull --rebase origin main (pick): Update comprehensive_vector_db with latest data
+[33m906d0fb[m HEAD@{46}: pull --rebase origin main (pick): Add sentence-transformers to requirements
+[33mcf73835[m HEAD@{47}: pull --rebase origin main (pick): Add vector DB files after removing from gitignore
+[33mea33e2f[m HEAD@{48}: pull --rebase origin main (pick): Update .gitignore
+[33m6c66ca7[m HEAD@{49}: pull --rebase origin main (pick): Add requirements.txt
+[33mbacd195[m HEAD@{50}: pull --rebase origin main (pick): Initial commit
+[33m3f7fa9d[m HEAD@{51}: pull --rebase origin main (start): checkout 3f7fa9d3a304ff057728e221162eec155113293c
+[33mcbb48e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{52}: Branch: renamed refs/heads/main to refs/heads/main
+[33mcbb48e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{54}: commit: 1st
+[33m6b7c05c[m HEAD@{55}: commit: app
+[33m8bb2715[m HEAD@{56}: commit: app
+[33mbe2d762[m HEAD@{57}: commit: req
+[33m70b1557[m HEAD@{58}: pull origin main --rebase: Fast-forward
+[33m4e7278a[m HEAD@{59}: commit: app and req
+[33m1a3bc86[m HEAD@{60}: commit: app
+[33mfdf97e1[m HEAD@{61}: commit: updated app and req
+[33m1a0ea20[m HEAD@{62}: commit: because uncompatible types
+[33m4580fb6[m HEAD@{63}: commit: because uncompatible types
+[33mab06c90[m HEAD@{64}: commit: Because of a .
+[33m9849c86[m HEAD@{65}: commit: Add more edits for torch
+[33mf0e209a[m HEAD@{66}: commit: Torch edited for 313
+[33m9856dad[m HEAD@{67}: commit: Torch requirements
+[33m16a2e95[m HEAD@{68}: commit: Shorter requirements.txt
+[33mdaf1b7c[m HEAD@{69}: commit: Fix torch & facenet-pytorch version conflict
+[33m99992a9[m HEAD@{70}: commit: Set Python version to 3.12
+[33m2f62fb4[m HEAD@{71}: commit: Set Python version to 3.12
+[33mf08413a[m HEAD@{72}: commit: Use pysqlite3 to fix sqlite version issues
+[33mcb119ef[m HEAD@{73}: commit: Update database and add p.py script
+[33m42ba16d[m HEAD@{74}: commit (merge): Merge branch 'main' of https://github.com/SavvyGaikwad/Ep-Chatbot
+[33me4e955d[m HEAD@{75}: commit: Update dataset in comprehensive_vector_db folder
+[33mc621f8c[m HEAD@{76}: commit: Update comprehensive_vector_db with latest data
+[33m1c2e8c2[m HEAD@{77}: commit: Add sentence-transformers to requirements
+[33m3aceeea[m HEAD@{78}: pull origin main --rebase (finish): returning to refs/heads/main
+[33m3aceeea[m HEAD@{79}: pull origin main --rebase (pick): Add vector DB files after removing from gitignore
+[33m1df09f7[m HEAD@{80}: pull origin main --rebase (start): checkout 1df09f7d80363da68f6419d9ccd1c599188da16c
+[33ma8b2f2d[m HEAD@{81}: commit: Add vector DB files after removing from gitignore
+[33mb22f050[m HEAD@{82}: commit: Add requirements.txt
+[33m0b7cca4[m HEAD@{83}: Branch: renamed refs/heads/master to refs/heads/main
+[33m0b7cca4[m HEAD@{85}: commit (initial): Initial commit

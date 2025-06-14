@@ -1,0 +1,261 @@
+{
+  "document_title": "Team Roles and Management Settings.",
+  "content": [
+    {
+      "type": "section",
+      "title": "Team Roles and Management Settings."
+    },
+    {
+      "type": "section",
+      "title": "Administrator Role.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "A licensed user who controls and protects the integrity of Eptura Asset."
+        },
+        {
+          "type": "info",
+          "text": "They oversee User Access, Module Configurations, and Standard Operating Processes (SOPs) for the application."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Asset Manager Role.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "Maintaining your organization's physical assets and equipment. These fixed assets can include vehicles, machinery, heavy equipment, buildings & structures, etc."
+        },
+        {
+          "type": "info",
+          "text": "Tracking the well-being of the assets."
+        },
+        {
+          "type": "info",
+          "text": "Oversee equipment and machinery in multiple locations."
+        },
+        {
+          "type": "info",
+          "text": "Lower maintenance costs."
+        },
+        {
+          "type": "info",
+          "text": "Improve equipment longevity and usability."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Inventory Manager Role.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "responsible for monitoring the inventory and determining recommended stocking levels, and ordering parts as needed."
+        },
+        {
+          "type": "info",
+          "text": "making sure the maintenance staff will have the parts they need, when they need them. Includes Inventory, Purchase Orders, Vendors, Cycle Counts, Assets, WOs, & Reports."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Operator.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "operators, drivers, and users of your equipment to perform inspections, submit requests, and view asset information."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Requester.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "able to submit work requests via the Work Request Portal or when they scan a QR code on equipment."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Request Manager.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "responsible for handling work requests."
+        },
+        {
+          "type": "info",
+          "text": "determine the people who are allowed to submit requests, manage the requests that come in, and see they are assigned to the correct individuals."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Technician - Mobile Role.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "manage asset data, update meter readings, and create update, and close work orders while on-the-go."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Technician Role.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "a Full User (Technician) who is a licensed user who has access to the work records in Eptura Asset."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Vendor Role.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "able to process work orders that are assigned to them."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Work Order Manager.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This role is defined as:."
+        },
+        {
+          "type": "info",
+          "text": "the go-to person when something needs fixing."
+        },
+        {
+          "type": "info",
+          "text": "make sure the PMs are performed on time when they come due; hand requests; assign work orders to maintenance staff, and make sure the jobs are well-documented."
+        },
+        {
+          "type": "info",
+          "text": "Below describes the key responsibilities :."
+        },
+        {
+          "type": "info",
+          "text": "Table 1:\nResponsibilities\nEmployees & Users, and Role Management\nYou will have employees join and leave your company, from the Employees & Users area; you can manage your employees and employee type (user license), security role, and details. It is important to understand the security roles as these determine what the users can see and do in Eptura Asset. Data Imports\nWhen you have a large amount of new assets, logs, or meter readings, inventory, or vendors, manually entering them into the platform one by one is a time-consuming task. Imports can help you cut down on manual entry by using a template that has already been generated for you. Module Settings\nEach module has various settings, and many of these are defined during implementation. You have the ability to adjust the settings, however, be aware that this will affect all users of Eptura Asset. Below is a high-level overview of the settings:\nAssets - General (status) - Category Settings (class, category, sub-category, custom fields) - Makes and Models\nWork Orders - General (settings, lookup, require reset logs etc - Workflow - Work Type (general, custom fields) - Service Task (task and task group) - Vendor Work (Vendor Work Order Form)\nInspections - Defaults - Operator Companion App - Work Order Tie - Work Order Defaults - New Inspections Defects Option\nRequests - General (Status, custom fields) - Email request\nInventory - Defaults, Barcode Labels, List setup, Custom fields\nPurchase Orders - Defaults, Barcode Labels, List setup, Custom fields\nContact - Employee (custom fields), Vendor (custom fields), Customer (custom fields)\nBusiness Intelligence - Upload file report, manage folders and permissions\nInvoices - General, List Setup, Custom fields - Invoice Workflow - Estimate Workflow - Service Task (task and task group)\nAssets and Work Orders\nExplore the modules that are highly used:\nAssets module - ​The asset data includes keeping an up-to-date inventory, providing financial information on leased versus owned equipment, and retaining information about contracts, warranties, and insurance, as well as information about the configurations and capabilities of each machine. This module makes it easy to track the utilization of assets and achieve optimal use of them. Work Order module - When you understand your work orders, then you can track what is being worked on, who is doing the work, and track the costs involved. The better data you provide, the more we can help you anticipate your maintenance needs in the future. Business Intelligence (BI) Reports\nCreate reports and dashboards, define permissions, and schedule a report."
+        },
+        {
+          "type": "info",
+          "text": "Table 2:\nResponsibilities\nAsset\nThe asset data includes keeping an up-to-date inventory, providing financial information on leased versus owned equipment, and retaining information about contracts, warranties, and insurance, as well as information about the configurations and capabilities of each machine. This module makes it easy to track the utilization of assets and achieve optimal use of them. Data Imports\nWhen you have a large amount of new assets, logs, or meter readings, manually entering them into the platform one by one is a time-consuming task. Imports can help you cut down on manual entry by using a template that has already been generated for you. Work Companion App\nThis app lets technicians (Full Users or Mobile) review their assigned work, update information, and complete orders. Tire Tracking\nHelps you better understand the usage and history of fleet tires while ensuring the safety of technicians, drivers, and equipment out on the road by monitoring tire usage, age, and repair history. BI Reports\nCreate reports and dashboards, define permissions, and schedule a report."
+        },
+        {
+          "type": "info",
+          "text": "Table 3:\nResponsibilities\nInventory\nExplore the module to learn how to track your parts and supplies - your consumables, that are used to repair and maintain your assets. Inventory Import\nWhen you have a large amount of new inventory, manually entering them into the platform one by one is a time-consuming task. Imports can help you cut down on manual entry by using a template that has already been generated for you. Cycle Counts and Transfers\nExplore the modules that are used:\nCycle counts are used to audit your inventory levels. Transfers are used to move inventory from one warehouse to another if a part you require is in stock at another warehouse. Work Companion\nThis app lets technicians (Full Users or Mobile) review their assigned work, update information, and complete orders. Additionally, the app lets users add inventory into the system. Budgets\nExplore budgets and budget accounts to understand the hierarchy structure and understand the differences between the budget types. Purchase Orders\nExplore this module to learn how purchase orders can help you have greater control of your inventory management and parts warehousing needs. Business Intelligence (BI) Reports\nCreate reports and dashboards, define permissions, and schedule a report."
+        },
+        {
+          "type": "info",
+          "text": "Table 4:\nResponsibilities\nOperator Companion\nThis lets you inspect your equipment and report your findings."
+        },
+        {
+          "type": "info",
+          "text": "Table 5:\nResponsibilities\nRequest Portal\nCreate WR using Work Request Portal."
+        },
+        {
+          "type": "info",
+          "text": "Table 6:\nResponsibilities\nRequests\nDecide who can submit requests\nDetermine how they will submit requests\nManage requests that come in\nTurn them into actual Work Orders that your maintenance team can act upon\nAssets\nThe asset data includes keeping an up-to-date inventory, providing financial information on leased versus owned equipment, and retaining information about contracts, warranties, and insurance, as well as information about the configurations and capabilities of each machine. This module makes it easy to track the utilization of assets and achieve optimal use of them. Work Order\nExplore the module to learn how to create work orders' capture costs; assign and track who's doing the work."
+        },
+        {
+          "type": "info",
+          "text": "Table 7:\nResponsibilities\nWork Companion\nReview and manage your assigned workload. Complete work orders and inspections."
+        },
+        {
+          "type": "info",
+          "text": "Table 8:\nResponsibilities\nWork Companion\nReview and manage your assigned workload. Complete work orders and inspections. View asset records and work history."
+        },
+        {
+          "type": "info",
+          "text": "Table 9:\nResponsibilities\nVendor Web Portal."
+        },
+        {
+          "type": "info",
+          "text": "Table 10:\nResponsibilities\nWork Order\nExplore the module to learn how to create work orders' capture costs; assign and track who's doing the work. Work Companion\nThis app lets technicians (Full Users or Mobile) review their assigned work, update information, and complete orders. Inspections\nExplore the module and learn how to run inspections from the following perspectives:\nMaintenance Manager (Inspections & PMs)\nMobile Techs (Inspections via the Work Companion mobile app)\nOperators (the Operator Companion web app). PMs\nExplore the module and learn about how to:\ngenerate appropriate preventative maintenance schedules\nhelp you track your assets' overall efficiency and productivity\nhelp you maintain your equipment’s highest level of peak performance while saving you money in costly repairs and the need to purchase new equipment. Assets\nThe asset data includes keeping an up-to-date inventory, providing financial information on leased versus owned equipment, and retaining information about contracts, warranties, and insurance, as well as information about the configurations and capabilities of each machine. This module makes it easy to track the utilization of assets and achieve optimal use of them. Inventory\nExplore the module to learn how to track your parts and supplies - your consumables, that are used to repair and maintain your assets. Business Intelligence (BI) Reports\nCreate reports and dashboards, define permissions, and schedule a report."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "document_title": "Log Import Template Data.",
+  "content": [
+    {
+      "type": "section",
+      "title": "Log Import Template Data."
+    },
+    {
+      "type": "section",
+      "title": "General Information.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Do not change the column headers in Row 1 as this is used to complete the upload."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Data Columns.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The table below lists the columns and which columns are required or optional."
+        },
+        {
+          "type": "info",
+          "text": "Table 1:\nColumn Name | Column Required | Max Length | Notes\nAsset ID | Yes | 24 | The Asset ID of the vehicle or machine you are tracking logs on. Post Date\nContact\nSite\nMiles\nHours\nOil\nOil Cost\nOil Budget Group\nOil Budget\nOil Part\nOil Warehouse\nFuel\nFuel Cost."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1992 @@
+{
+  "document_title": "Inventory Settings.",
+  "content": [
+    {
+      "type": "section",
+      "title": "Inventory Settings."
+    },
+    {
+      "type": "section",
+      "title": "Inventory Overview.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The Inventory module tracks your parts and supplies, your consumables, that are used to repair and maintain your assets."
+        },
+        {
+          "type": "info",
+          "text": "Let's review the inventory principles and definitions."
+        },
+        {
+          "type": "step",
+          "text": "1. FIFO (First In, First Out)."
+        },
+        {
+          "type": "info",
+          "text": "Oldest inventory is used first."
+        },
+        {
+          "type": "step",
+          "text": "2. LIFO (Last In, First Out)."
+        },
+        {
+          "type": "info",
+          "text": "Most recently acquired inventory is used first."
+        },
+        {
+          "type": "step",
+          "text": "3. Bin Location."
+        },
+        {
+          "type": "info",
+          "text": "Labeling system that helps locate items quickly by giving every part an address."
+        },
+        {
+          "type": "info",
+          "text": "This can be set up in whatever way works for your company."
+        },
+        {
+          "type": "info",
+          "text": "Learn more in Manage Bins."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Part Types.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The parts are classified into the following types:."
+        },
+        {
+          "type": "step",
+          "text": "1. Stocked Parts."
+        },
+        {
+          "type": "info",
+          "text": "Parts you keep in stock and want the system to track."
+        },
+        {
+          "type": "info",
+          "text": "Inventory rules such as minimum and maximum stocking levels will apply."
+        },
+        {
+          "type": "step",
+          "text": "2. Non-Stocked Parts."
+        },
+        {
+          "type": "info",
+          "text": "Parts you use as needed but don't keep in stock."
+        },
+        {
+          "type": "info",
+          "text": "No inventory rules or restrictions apply."
+        },
+        {
+          "type": "step",
+          "text": "3. Components."
+        },
+        {
+          "type": "info",
+          "text": "Serialized part that may have warranty information."
+        },
+        {
+          "type": "info",
+          "text": "Part where you want to track how long it has been used on an asset."
+        },
+        {
+          "type": "step",
+          "text": "4. Tires."
+        },
+        {
+          "type": "info",
+          "text": "Special designation for tires that tracks serial numbers, warranty, tire size, and Department of Transport (DOT) information."
+        },
+        {
+          "type": "step",
+          "text": "5. Warehouse Parts."
+        },
+        {
+          "type": "info",
+          "text": "Stocked parts."
+        },
+        {
+          "type": "info",
+          "text": "Non-stocked part that was marked as warehouse part on creation."
+        },
+        {
+          "type": "info",
+          "text": "Part used on a work order in the last 6 months."
+        },
+        {
+          "type": "info",
+          "text": "Part marked as \"warehouse favorite\"."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "New Parts.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Every part that you use, can be listed in the Inventory module, even if you don't keep a particular part in stock. The Inventory module will help you differentiate between:."
+        },
+        {
+          "type": "info",
+          "text": "New Stocked Part."
+        },
+        {
+          "type": "info",
+          "text": "New Non-Stocked Part."
+        },
+        {
+          "type": "info",
+          "text": "New Component."
+        },
+        {
+          "type": "info",
+          "text": "New Tire Record."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/1. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Understand the Inventory Key Performance Indicators.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The Key Performance Indicators (KPIs) give you a quick, at-a-glance, view of your Inventory."
+        },
+        {
+          "type": "step",
+          "text": "1. Navigate to Inventory."
+        },
+        {
+          "type": "step",
+          "text": "2. Click the Show KPI icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/2. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/3. png."
+        },
+        {
+          "type": "info",
+          "text": "Going across the top of the screen, the following statistics are:."
+        },
+        {
+          "type": "info",
+          "text": "You can click on the Needed / On Order columns to filter the list."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/4. png."
+        },
+        {
+          "type": "info",
+          "text": "If you want to reset the grid view, then click the More Actions  icon, and then Reset Grid.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/5. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/6. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Customize the Inventory View.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The list view is where you can see the full list of your Inventory, along with the inventory details at a glance."
+        },
+        {
+          "type": "info",
+          "text": "Each user can arrange the layout of the screen according to their own preferences and liking."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Search.",
+      "content": [
+        {
+          "type": "step",
+          "text": "1. Search allows you to find any field within the Inventory list. The example below shows results populated for oil filter."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/7. png."
+        },
+        {
+          "type": "info",
+          "text": "In the Search field, enter the search term."
+        },
+        {
+          "type": "info",
+          "text": "Search results automatically populate."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Filter by Warehouse.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Switch Warehouse helps you view Inventory by Warehouse organization."
+        },
+        {
+          "type": "info",
+          "text": "Warehouses have been set up by your admin, see set up a site for more information."
+        },
+        {
+          "type": "step",
+          "text": "1. Click the Switch Warehouse button. The Switch Warehouse panel displays."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/8. png."
+        },
+        {
+          "type": "step",
+          "text": "2. Select a Warehouse to filter by. The Inventory list is filtered."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/9. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Filter for Warehouse Parts.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The warehouse parts dropdown allows you to filter the inventory using the following options:."
+        },
+        {
+          "type": "info",
+          "text": "Warehouse Parts - Warehouse parts must be at least one of the following:."
+        },
+        {
+          "type": "info",
+          "text": "Part is a Stocked Part."
+        },
+        {
+          "type": "info",
+          "text": "Used in the past six months."
+        },
+        {
+          "type": "info",
+          "text": "Part is a Warehouse Favorite."
+        },
+        {
+          "type": "info",
+          "text": "Stocked Parts - Parts that belong in your inventory."
+        },
+        {
+          "type": "info",
+          "text": "Non Stocked Parts - Parts you use that do not belong to your inventory."
+        },
+        {
+          "type": "info",
+          "text": "Parts Master -  All stocked and non stocked parts."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/10. png."
+        },
+        {
+          "type": "info",
+          "text": "Click the Warehouse Parts drop-down."
+        },
+        {
+          "type": "info",
+          "text": "Select one of the following:."
+        },
+        {
+          "type": "info",
+          "text": "Warehouse Parts."
+        },
+        {
+          "type": "info",
+          "text": "Stocked Parts."
+        },
+        {
+          "type": "info",
+          "text": "Non Stocked Parts."
+        },
+        {
+          "type": "info",
+          "text": "Parts Master."
+        },
+        {
+          "type": "info",
+          "text": "The inventory list is automatically filtered."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Saved View - Filter a Column Example.",
+      "content": [
+        {
+          "type": "info",
+          "text": "When viewing the Inventory list, you may want to change the Inventory columns and sort order. The Save View let's you set up the Inventory listing and then save it for next time."
+        },
+        {
+          "type": "info",
+          "text": "This is best explained using an example. I want to create a saved list view for oil filters that are on order add the On Order column to the list view."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Step 1. Reorder Columns.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Drag and drop the Part Type column to the front of the list.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/11. gif."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Step 2. Filter the Column.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Click on the filter  icon within the Part Type column. The list of Part Types display.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/12. png."
+        },
+        {
+          "type": "info",
+          "text": "Select FILTERS-OIL."
+        },
+        {
+          "type": "info",
+          "text": "Click the OK button. The Part Type column is filtered."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Step 3. Add a column from the Column Chooser.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Click the more actions  icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/13. png."
+        },
+        {
+          "type": "info",
+          "text": "Select Column Chooser. The column chooser displays."
+        },
+        {
+          "type": "info",
+          "text": "Drag and drop the On Order column to the Inventory column headings. The On Order column displays on the inventory list."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/14. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Step 4. Save your View.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Click the save icon. The create new view dialog displays.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/15. png."
+        },
+        {
+          "type": "info",
+          "text": "In the View Name field, enter the name of the saved view."
+        },
+        {
+          "type": "info",
+          "text": "Select a who can access this view option, either:."
+        },
+        {
+          "type": "info",
+          "text": "Private- Don't share this view with anyone."
+        },
+        {
+          "type": "info",
+          "text": "Everyone - Share this view with everyone."
+        },
+        {
+          "type": "info",
+          "text": "Security Roles - Share this view with specific roles in your organization."
+        },
+        {
+          "type": "info",
+          "text": "Teams - Share this view with specific teams in your organization."
+        },
+        {
+          "type": "info",
+          "text": "Click the Save View button."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Display your Saved View.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The next time you want to use the saved view you can display it."
+        },
+        {
+          "type": "info",
+          "text": "Click the Saved views drop-down. The saved views pop-up displays."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/16. png."
+        },
+        {
+          "type": "info",
+          "text": "From this you can see a list of saved views, and the default view."
+        },
+        {
+          "type": "info",
+          "text": "Select a saved view."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/17. png."
+        },
+        {
+          "type": "info",
+          "text": "Remember, you can share a view that is private to you. Click the share  icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/18. png."
+        },
+        {
+          "type": "info",
+          "text": "Click on apply selected. The saved view displays."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Where's my Part.",
+      "content": [
+        {
+          "type": "info",
+          "text": "If you open the Inventory module and you don't see your parts, we will show you how to locate them."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Default Warehouse.",
+      "content": [
+        {
+          "type": "info",
+          "text": "It is important to remember, the default warehouse displayed may not be the one that you imported your parts to."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/19. png."
+        },
+        {
+          "type": "info",
+          "text": "So, when you open the Inventory module you don't see your parts."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/20. png."
+        },
+        {
+          "type": "step",
+          "text": "1. Click the Switch Warehouse button to see the different warehouses available."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/21. png."
+        },
+        {
+          "type": "info",
+          "text": "In this example, the warehouse shown is the parts room located at this site."
+        },
+        {
+          "type": "step",
+          "text": "2. For the warehouse that the parts were imported into, click the Expand > icon."
+        },
+        {
+          "type": "step",
+          "text": "3. Click the Parts Room."
+        },
+        {
+          "type": "info",
+          "text": "Now you can see the parts."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/22. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Warehouse Names.",
+      "content": [
+        {
+          "type": "info",
+          "text": "You will see that the warehouses will have the same name."
+        },
+        {
+          "type": "info",
+          "text": "To avoid confusion, it is useful to give each warehouse unique names, so let's rename a warehouse.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/23. png."
+        },
+        {
+          "type": "step",
+          "text": "1. Navigate to Settings."
+        },
+        {
+          "type": "step",
+          "text": "2. Under Administration, click Sites."
+        },
+        {
+          "type": "step",
+          "text": "3. Click the Region and then the Site name."
+        },
+        {
+          "type": "step",
+          "text": "4. Click the Collapse  icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/24. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/25. png."
+        },
+        {
+          "type": "step",
+          "text": "5. Click on Warehouse to expand the tab."
+        },
+        {
+          "type": "step",
+          "text": "6. Hover over the warehouse name you want to change and click the Edit  icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/26. png."
+        },
+        {
+          "type": "step",
+          "text": "7. Enter the new warehouse name."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/27. png."
+        },
+        {
+          "type": "info",
+          "text": "Now in the Inventory module, you can see the warehouse name now displays the name that reflects its location. This makes it clearer for everyone."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/28. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Manage Bins.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The Inventory module lets you create a Bin system for your inventory."
+        },
+        {
+          "type": "info",
+          "text": "An inventory bin system is a labeling method that helps locate items quickly and efficiently by giving each part an address."
+        },
+        {
+          "type": "info",
+          "text": "This is accomplished by using the elements in your storage space to track down the specific location of each item."
+        },
+        {
+          "type": "info",
+          "text": "For example: a mailing address will name an or a region and contains smaller or more specific elements nested within."
+        },
+        {
+          "type": "info",
+          "text": "State."
+        },
+        {
+          "type": "info",
+          "text": "City."
+        },
+        {
+          "type": "info",
+          "text": "Street."
+        },
+        {
+          "type": "info",
+          "text": "Address."
+        },
+        {
+          "type": "info",
+          "text": "A part's bin location works in a similar way."
+        },
+        {
+          "type": "info",
+          "text": "Zone."
+        },
+        {
+          "type": "info",
+          "text": "Aisle."
+        },
+        {
+          "type": "info",
+          "text": "Rack."
+        },
+        {
+          "type": "info",
+          "text": "Shelf."
+        },
+        {
+          "type": "info",
+          "text": "In Eptura Asset, the nested regions are called Bin Layers."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Bin Layers Example.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Let's look at an example where the Bin System is set up with the following elements:."
+        },
+        {
+          "type": "info",
+          "text": "Zone, Aisle, Rack, Shelf, and Bin."
+        },
+        {
+          "type": "info",
+          "text": "Locating a part looks like this:."
+        },
+        {
+          "type": "info",
+          "text": "This entire space is Zone,  Aisle B,  Rack 03,  Shelf B, and the Bin is 02."
+        },
+        {
+          "type": "step",
+          "text": "1. In the system, the bin location can be shorten to 1, B, 03, B, 02."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/29. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Create a Bin System.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Remember, when creating your bin structure, keep in mind that it may look very different based on the way your storage space is set up."
+        },
+        {
+          "type": "info",
+          "text": "You may use as many or as few layers as needed."
+        },
+        {
+          "type": "info",
+          "text": "Layers and bins can be named any way you want, however, it is recommended to use short or abbreviated labels."
+        },
+        {
+          "type": "info",
+          "text": "Especially if you have many layers."
+        },
+        {
+          "type": "info",
+          "text": "Each warehouse has its own system."
+        },
+        {
+          "type": "info",
+          "text": "For example, here is a different labeling scheme for a warehouse with rack, bays, and levels."
+        },
+        {
+          "type": "info",
+          "text": "Each rack is separated into 3 sections called bays\"."
+        },
+        {
+          "type": "info",
+          "text": "In this Bin System, every shelf is called \"levels\" and it is given a letter name and contains numerical positions to identify a part's specific location."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/30. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Create a New Part.",
+      "content": [
+        {
+          "type": "info",
+          "text": "ou can manually create a new part in the Inventory module. The different part types that can be created are:."
+        },
+        {
+          "type": "step",
+          "text": "1. Stocked Parts."
+        },
+        {
+          "type": "info",
+          "text": "Are parts you keep in stock and want the system to track cost and quantities."
+        },
+        {
+          "type": "info",
+          "text": "Inventory rules such as minimum, maximum and normal stocking levels will apply."
+        },
+        {
+          "type": "step",
+          "text": "2. Non-Stocked Parts."
+        },
+        {
+          "type": "info",
+          "text": "Parts you use as needed but don't keep in stock."
+        },
+        {
+          "type": "info",
+          "text": "No inventory rules or restrictions apply."
+        },
+        {
+          "type": "step",
+          "text": "3. Components."
+        },
+        {
+          "type": "info",
+          "text": "These are parts installed on an asset with their own maintenance and warranty."
+        },
+        {
+          "type": "info",
+          "text": "Components can be stocked or non-stocked."
+        },
+        {
+          "type": "step",
+          "text": "4. Tires."
+        },
+        {
+          "type": "info",
+          "text": "Tires have a special designation that tracks serial numbers, warranty, tire size, and Department of Transport (DOT) information. This data is tracked separately through the Tire Tracking module."
+        },
+        {
+          "type": "step",
+          "text": "5. Warehouse Parts."
+        },
+        {
+          "type": "info",
+          "text": "A part is a warehouse part if it meets one of the following criteria. It is a stocked part. A non-stocked part that was marked as warehouse part on creation. The part was used on a work order in the last 6 months or the part is marked as \"warehouse favorite\" in the part detail view."
+        },
+        {
+          "type": "step",
+          "text": "6. Navigate to Inventory."
+        },
+        {
+          "type": "step",
+          "text": "7. Click the New Part button."
+        },
+        {
+          "type": "info",
+          "text": "Select one of the following options:."
+        },
+        {
+          "type": "step",
+          "text": "8. New Stocked Part - Create a new part for your inventory. Inventory rules apply to stocked parts."
+        },
+        {
+          "type": "step",
+          "text": "9. New Non-Stocked Part - Create a new non-stocked part. Inventory rules do NOT apply to non-stocked parts. You can use them freely without restrictions."
+        },
+        {
+          "type": "step",
+          "text": "10. New Component - Create a new component. Components are serialized inventoried parts that may have warranty information. Create components for items that have a warranty or when it is critical to know how long they have been on the asset."
+        },
+        {
+          "type": "step",
+          "text": "11. New Tire Record - Create a new tire to track in inventory. Tires are tracked similar to components in that there will be a serial number associated to the tire as well as warranty information. In addition, tire size and DOT information will also be tracked."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "New Stocked Part.",
+      "content": [
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/31. png."
+        },
+        {
+          "type": "info",
+          "text": "Complete the following fields:."
+        },
+        {
+          "type": "info",
+          "text": "When finished, click the OK button and the part is created."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "New Non-Stocked Part.",
+      "content": [
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/32. png."
+        },
+        {
+          "type": "info",
+          "text": "Complete the following fields:."
+        },
+        {
+          "type": "info",
+          "text": "When finished, click the OK button and the part is created."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "New Component.",
+      "content": [
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/33. png."
+        },
+        {
+          "type": "info",
+          "text": "Complete the following fields:."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Change the Part to a Component.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Components can track a part's warranty, and requires you to register the component's serial number each time you purchase or order the part. You can change a part to become a component."
+        },
+        {
+          "type": "step",
+          "text": "1. From the menu, click Inventory."
+        },
+        {
+          "type": "step",
+          "text": "2. Click the part and the Part Details screen displays."
+        },
+        {
+          "type": "step",
+          "text": "3. Click the View Part Details  icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/34. png."
+        },
+        {
+          "type": "step",
+          "text": "4. Check the Serialized check box."
+        },
+        {
+          "type": "step",
+          "text": "5. Refresh the screen and you will see the View Components  icon in the Part Details form.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/35. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/36. png."
+        },
+        {
+          "type": "info",
+          "text": "The Warranty information can be added to an active component."
+        },
+        {
+          "type": "step",
+          "text": "6. Click the Component - Warranty Rules   tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/37. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/38. png."
+        },
+        {
+          "type": "info",
+          "text": "Date Based."
+        },
+        {
+          "type": "step",
+          "text": "7. From the Date Based drop-down, selected either: Years, Months, or Days."
+        },
+        {
+          "type": "step",
+          "text": "8. In the Number field, enter the number."
+        },
+        {
+          "type": "info",
+          "text": "Meter Based."
+        },
+        {
+          "type": "step",
+          "text": "9. From the Meter Based drop-down, select the measurement."
+        },
+        {
+          "type": "step",
+          "text": "10. In the Number field, enter the number."
+        },
+        {
+          "type": "info",
+          "text": "Warranty Note."
+        },
+        {
+          "type": "step",
+          "text": "11. In the Warranty Note field, enter the warranty information."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "View the Part Details.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The Part Detail screen contains information about where you keep your part, how many you have on hand, how much it costs, how you've used the part in the past, and plan to use it in the future."
+        },
+        {
+          "type": "step",
+          "text": "1. Navigate to Inventory."
+        },
+        {
+          "type": "step",
+          "text": "2. Click a Part. The Part Details screen displays the following areas:."
+        },
+        {
+          "type": "info",
+          "text": "(A) Part Images."
+        },
+        {
+          "type": "info",
+          "text": "(B) Status, Warehouse Favorite, Cost, etc."
+        },
+        {
+          "type": "info",
+          "text": "(C) Part Details Toolbar."
+        },
+        {
+          "type": "info",
+          "text": "(D) Bin Location."
+        },
+        {
+          "type": "info",
+          "text": "(E) Stock Levels."
+        },
+        {
+          "type": "info",
+          "text": "(F) Open Purchase Orders."
+        },
+        {
+          "type": "info",
+          "text": "(G) Warehouse Preferences."
+        },
+        {
+          "type": "info",
+          "text": "(H) Additional Units Of Measure."
+        },
+        {
+          "type": "info",
+          "text": "(I) Activity Timeline."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/39. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(A) Part Images.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Add images of your part for easy identification."
+        },
+        {
+          "type": "step",
+          "text": "1. Click Add an Image icon."
+        },
+        {
+          "type": "step",
+          "text": "2. Select an image to upload it."
+        },
+        {
+          "type": "info",
+          "text": "If you need to delete an image, click the X icon."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(B) Status, Warehouse Favorite, Cost, etc.",
+      "content": [
+        {
+          "type": "step",
+          "text": "1. Warehouse Favorite - Part has been designated as a warehouse favorite."
+        },
+        {
+          "type": "step",
+          "text": "2. Cost - Current cost of the part. If the quantities are greater than zero, it will list the cost of the next part to be used."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(C) Part Details Toolbar.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The Part Details screen contains a toolbar and remember when your part is a component, then an extra Component icon displays."
+        },
+        {
+          "type": "info",
+          "text": "Below describes each of the icons found in the toolbar."
+        },
+        {
+          "type": "step",
+          "text": "1. ​​​ View Part Details icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/34. png."
+        },
+        {
+          "type": "info",
+          "text": "This Part Details tab displays a toolbar with the following icons:."
+        },
+        {
+          "type": "step",
+          "text": "2. Parts Details - Lets you add more part details and branding information.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/40. png."
+        },
+        {
+          "type": "step",
+          "text": "3. Vendors - Add the vendor and their part ID and cost of purchasing the part.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/41. png."
+        },
+        {
+          "type": "step",
+          "text": "4. Barcodes - The barcode number(s) associated with this part.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/42. png."
+        },
+        {
+          "type": "step",
+          "text": "5. Component - Warranty Rules - Add warranty information if the part's warranty is time-based, meter-based (how much it's used), or both.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/35. png."
+        },
+        {
+          "type": "step",
+          "text": "6. Notes - Add notes to a part.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/43. png."
+        },
+        {
+          "type": "step",
+          "text": "7. Attachments  - Add an attachment or link to a part.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/44. png."
+        },
+        {
+          "type": "info",
+          "text": "Learn more in Update Part with More Details."
+        },
+        {
+          "type": "step",
+          "text": "8. View Assets Linked to Parts icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/45. png."
+        },
+        {
+          "type": "info",
+          "text": "A list of all assets that use this part."
+        },
+        {
+          "type": "info",
+          "text": "Learn more in View Assets Linked to Part."
+        },
+        {
+          "type": "step",
+          "text": "9. View Components icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/35. png."
+        },
+        {
+          "type": "info",
+          "text": "Each asset that has this part installed as a component, and what is left on the warranty."
+        },
+        {
+          "type": "info",
+          "text": "Learn more in View Component List."
+        },
+        {
+          "type": "step",
+          "text": "10. Adjust Inventory icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/46. png."
+        },
+        {
+          "type": "info",
+          "text": "Raise or lower your existing stocking levels. Each adjustment is recorded & will leave a digital paper trail."
+        },
+        {
+          "type": "info",
+          "text": "Learn more in Adjust Inventory."
+        },
+        {
+          "type": "step",
+          "text": "11. Search other warehouses icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/47. png."
+        },
+        {
+          "type": "info",
+          "text": "If you have established additional warehouses in your database, you can search and view what the current available count is at each one, and see if it is currently on order."
+        },
+        {
+          "type": "info",
+          "text": "Learn more in Search Other Warehouses."
+        },
+        {
+          "type": "step",
+          "text": "12. Alternative Parts icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/48. png."
+        },
+        {
+          "type": "info",
+          "text": "Alternate parts are used when a part assigned to a work order does not have enough available quantities."
+        },
+        {
+          "type": "info",
+          "text": "Learn more in Assign an Alternate Part."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(D) Bin Location.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This is where the parts can be found in your warehouse and you can learn more about Bins in Manage Bins."
+        },
+        {
+          "type": "step",
+          "text": "1. From the Bin Location drop-down, select the location."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(E) Stock Levels.",
+      "content": [
+        {
+          "type": "step",
+          "text": "1. Maximum Stock Levels: The maximum you ever want to have in your inventory. You can carry more than this number, but the application will consider this overstock, and suggest you return it."
+        },
+        {
+          "type": "step",
+          "text": "2. Normal Stock Levels: The number of parts the application is always trying to get you back to."
+        },
+        {
+          "type": "step",
+          "text": "3. Minimum Stock Levels: The least acceptable stocking number. If your part count drops below this number, the application will suggest you reorder the amount it takes to get you back to Normal."
+        },
+        {
+          "type": "step",
+          "text": "4. Make non-stocked: This is only possible if you use all your parts on hand."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(F) Open Purchase Orders.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This will list all the open purchase orders (PO) that include a line item of the part record you are currently viewing. The price listed here, is the total price of the purchase order."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(G) Warehouse Preferences.",
+      "content": [
+        {
+          "type": "step",
+          "text": "1. Base Unit Of Measure - Indicates how you prefer to count and use the part."
+        },
+        {
+          "type": "step",
+          "text": "2. Preferred Vendor - While you are free to reorder from the vendor of your choosing, the application will default to your preferred vendor."
+        },
+        {
+          "type": "step",
+          "text": "3. Replenishment Source - How do you prefer to get restocked when this part is running low."
+        },
+        {
+          "type": "info",
+          "text": "Default (the method determined by your System Administrator)."
+        },
+        {
+          "type": "info",
+          "text": "Purchase Order."
+        },
+        {
+          "type": "info",
+          "text": "Warehouse Distribution (comes from another one of your Inventory Warehouses)."
+        },
+        {
+          "type": "step",
+          "text": "4. Default Purchasing Budget."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(H) Additional Units Of Measure.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Typically, this is how you prefer to order the part (by the Case, by the Ton, by the Gallon, etc)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "(I) Activity Timeline.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This displays the following:."
+        },
+        {
+          "type": "step",
+          "text": "1. Active - Part is being actively used in a Work Order, or audited in a Cycle Count."
+        },
+        {
+          "type": "step",
+          "text": "2. History - Record of when the part was used in the past."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Update Part with More Details.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This lets you add more part details, branding information, and more."
+        },
+        {
+          "type": "step",
+          "text": "1. For the part you want to update, click the part and the Part Details screen displays."
+        },
+        {
+          "type": "step",
+          "text": "2. Click the Part Details  icon and the Details tab displays and this contains the following icons:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/49. png."
+        },
+        {
+          "type": "info",
+          "text": "Details tab."
+        },
+        {
+          "type": "info",
+          "text": "Vendors tab."
+        },
+        {
+          "type": "info",
+          "text": "Barcodes tab."
+        },
+        {
+          "type": "info",
+          "text": "Component - Warranty Rules tab."
+        },
+        {
+          "type": "info",
+          "text": "Notes tab."
+        },
+        {
+          "type": "info",
+          "text": "Attachments tab."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/50. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Details tab.",
+      "content": [
+        {
+          "type": "info",
+          "text": "You can update the following fields:."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Vendors tab.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This lets you add or remove your part vendor(s)."
+        },
+        {
+          "type": "step",
+          "text": "1. Click the Vendors  tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/51. png."
+        },
+        {
+          "type": "step",
+          "text": "2. Click the Add  icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/52. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/53. png."
+        },
+        {
+          "type": "step",
+          "text": "3. From the Vendor ID drop-down, select the vendor."
+        },
+        {
+          "type": "step",
+          "text": "4. In the Vendor's Part Number field, enter the part number."
+        },
+        {
+          "type": "step",
+          "text": "5. Click the Save button."
+        },
+        {
+          "type": "info",
+          "text": "If you want to remove a vendor, click the Remove icon. The message \"Vendor will be removed form this part vendors list\" displays. Click the Remove button to confirm the removal.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/54. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Barcodes tab.",
+      "content": [
+        {
+          "type": "info",
+          "text": "If you use barcodes to identify your part, then you can add or remove the barcodes."
+        },
+        {
+          "type": "step",
+          "text": "1. Click the Barcode   tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/42. png."
+        },
+        {
+          "type": "step",
+          "text": "2. Click the Add Barcode button."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/55. png."
+        },
+        {
+          "type": "step",
+          "text": "3. In the Barcode field, enter the barcode number."
+        },
+        {
+          "type": "step",
+          "text": "4. From the Vendor drop-down, select the vendor."
+        },
+        {
+          "type": "info",
+          "text": "If you want to remove a barcode, click the Remove icon and the barcode is removed.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/54. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Component - Warranty Rules tab.",
+      "content": [
+        {
+          "type": "info",
+          "text": "If your part has been converted to a Component, then this tab will display and you can add warranty information."
+        },
+        {
+          "type": "info",
+          "text": "Remember to update warranty Information to an active component, it must be marked as serialized."
+        },
+        {
+          "type": "step",
+          "text": "1. Click the Component - Warranty Rules  tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/35. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/38. png."
+        },
+        {
+          "type": "info",
+          "text": "Date Based."
+        },
+        {
+          "type": "step",
+          "text": "2. From the Date Based drop-down, selected either: Years, Months, or Days."
+        },
+        {
+          "type": "step",
+          "text": "3. In the Number field, enter the number."
+        },
+        {
+          "type": "info",
+          "text": "Meter Based."
+        },
+        {
+          "type": "step",
+          "text": "4. From the Meter Based drop-down, select the measurement."
+        },
+        {
+          "type": "step",
+          "text": "5. In the Number field, enter the number."
+        },
+        {
+          "type": "info",
+          "text": "Warranty Note."
+        },
+        {
+          "type": "step",
+          "text": "6. In the Warranty Note field, enter the warranty information."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Notes tab.",
+      "content": [
+        {
+          "type": "step",
+          "text": "1. Click the Notes  tab. The New Pubic Note dialog displays.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/56. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/57. png."
+        },
+        {
+          "type": "step",
+          "text": "2. Click the Add Note button and the New Public Note dialog displays."
+        },
+        {
+          "type": "step",
+          "text": "3. In the description field, enter the note."
+        },
+        {
+          "type": "step",
+          "text": "4. Click the Add Note button and this will save the note to your Part."
+        },
+        {
+          "type": "info",
+          "text": "If you want to delete a note, click the Delete  icon.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/58. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Attachments tab.",
+      "content": [
+        {
+          "type": "step",
+          "text": "1. Click the Attachments tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/59. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/60. png."
+        },
+        {
+          "type": "info",
+          "text": "Attachments."
+        },
+        {
+          "type": "info",
+          "text": "You can add an attachment by either:."
+        },
+        {
+          "type": "step",
+          "text": "2. Drag and drop the file to the designated area."
+        },
+        {
+          "type": "step",
+          "text": "3. Click the Add Attachment button, select the file, and then click the Open button to upload it."
+        },
+        {
+          "type": "info",
+          "text": "Links."
+        },
+        {
+          "type": "step",
+          "text": "4. If you want to add a link, then click the Add Link button. The Add Attachment Link dialog displays."
+        },
+        {
+          "type": "step",
+          "text": "5. In the Attachment Link field, enter the link."
+        },
+        {
+          "type": "step",
+          "text": "6. Click the Upload Link button."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "View Assets Linked to Part.",
+      "content": [
+        {
+          "type": "info",
+          "text": "This lists all assets that use this part, and you can add or remove an asset."
+        },
+        {
+          "type": "step",
+          "text": "1. Navigate to Inventory."
+        },
+        {
+          "type": "step",
+          "text": "2. Click a part."
+        },
+        {
+          "type": "step",
+          "text": "3. Click the View Asset  tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/45. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/61. png."
+        },
+        {
+          "type": "step",
+          "text": "4. Click Link asset to part button."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/62. png."
+        },
+        {
+          "type": "step",
+          "text": "5. This lets you search for the asset or click the Filter icon to filter by Asset Groups.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/63. png."
+        },
+        {
+          "type": "step",
+          "text": "6. When you find the asset, click on asset's name and it is linked to the part."
+        },
+        {
+          "type": "info",
+          "text": "If you want to remove an asset, click the remove  icon and the message \"Are you sure you want to remove the link to this asset. \" displays. Click the Yes button to remove the asset link.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/64. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "View Component List.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Each asset that has this part installed as a component, and what is left on the warranty."
+        },
+        {
+          "type": "step",
+          "text": "1. Click the View Components  tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/35. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/65. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Adjust Inventory.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Normally, your inventory is adjusted as parts are consumed and purchased,  through work orders and purchase orders. However, it is sometimes necessary to make manual inventory adjustments to account for loss, miscounts, or purchases made outside the system."
+        },
+        {
+          "type": "step",
+          "text": "1. Click the part you want to adjust."
+        },
+        {
+          "type": "step",
+          "text": "2. In the Part Detail screen, click the Adjust inventory  icon and the Adjustment dialog displays.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/46. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/66. png."
+        },
+        {
+          "type": "info",
+          "text": "The section lets you adjust for:."
+        },
+        {
+          "type": "step",
+          "text": "3. Gain - This is selected by default; use this when you want to add parts due to miscounts or transfers that took place outside the system."
+        },
+        {
+          "type": "step",
+          "text": "4. Loss - This is selected when you want to decrease part count due to missing parts, damage, or other reasons."
+        },
+        {
+          "type": "step",
+          "text": "5. Purchase - This is selected when you buy parts without a purchase order, For example, when you have quickly run to the hardware store for a last-minute purchase."
+        },
+        {
+          "type": "step",
+          "text": "6. In the Quantity field, enter the quantity."
+        },
+        {
+          "type": "step",
+          "text": "7. Optional - From the Assets drop-down, select the asset."
+        },
+        {
+          "type": "step",
+          "text": "8. Only for Gain and Purchase - In the Unit Cost field, enter the unit cost."
+        },
+        {
+          "type": "step",
+          "text": "9. From the Budget drop-down, select the budget."
+        },
+        {
+          "type": "step",
+          "text": "10. In the Adjustment Note field, enter the reason for the adjustment."
+        },
+        {
+          "type": "step",
+          "text": "11. Click the OK button."
+        },
+        {
+          "type": "info",
+          "text": "The change will be reflected in the on-hand quantity and will be logged in the activity timeline."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Search Other Warehouses.",
+      "content": [
+        {
+          "type": "info",
+          "text": "If you are running low on quantities, and have more than one warehouse, you do not need to switch screens to the other warehouse. The \"Search Other Warehouses\" tab lets you view the available quantities at your other warehouse locations."
+        },
+        {
+          "type": "step",
+          "text": "1. Navigate to Inventory."
+        },
+        {
+          "type": "step",
+          "text": "2. Click a part."
+        },
+        {
+          "type": "step",
+          "text": "3. Click the Warehouse  tab.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/70. png."
+        },
+        {
+          "type": "info",
+          "text": "This displays the warehouses and you can see which warehouse has the part available or on order."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/71. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Assign an Alternate Part.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Alternate parts are used when a part assigned to a work order does not have enough available quantity. The example below displays a fire extinguisher inspection where 17 safety pins are required, but there are not enough of that part in stock."
+        },
+        {
+          "type": "step",
+          "text": "1. Hover over the Alternate Parts  icon, a message displays \"You don't have enough of this part. See alternatives\".",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/48. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/72. png."
+        },
+        {
+          "type": "info",
+          "text": "To assign an alternate part, complete the following steps:."
+        },
+        {
+          "type": "step",
+          "text": "2. Navigate to Inventory."
+        },
+        {
+          "type": "step",
+          "text": "3. Select a part."
+        },
+        {
+          "type": "step",
+          "text": "4. Click on the Alternate Parts  icon. The Alternate Parts form displays.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/48. png.",
+            "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/73. png.",
+            "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/74. png."
+          ]
+        },
+        {
+          "type": "step",
+          "text": "5. Click on the Manage alternate parts button. The parts master displays."
+        },
+        {
+          "type": "step",
+          "text": "6. In the search field, enter a Part ID, Part Type or Part Description."
+        },
+        {
+          "type": "step",
+          "text": "7. Click on the add  icon to add the part as an alternate.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/icon/75. png.",
+            "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/76. png."
+          ]
+        },
+        {
+          "type": "step",
+          "text": "8. Click the Save updates button."
+        },
+        {
+          "type": "info",
+          "text": "The part is  now available to replace a part on a work order as an alternate part."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/77. png."
+        },
+        {
+          "type": "info",
+          "text": "Alternate Parts are reciprocal, meaning that once Part B is added as an alternate for Part A, Part A is automatically available as an alternate part for Part B."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Tire Tracking Overview.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Tire Tracking  helps Fleet Managers to better understand the usage and history of fleet tires while ensuring the safety of technicians, drivers and equipment out on the road by monitoring tire usage, age, and repair history through the following:."
+        },
+        {
+          "type": "step",
+          "text": "1. Mileage tracking - records the distance traveled by each tire to plan repairs and replacement."
+        },
+        {
+          "type": "step",
+          "text": "2. Tire inventory  - creates a digital parts record so Fleet Managers can track the volume of parts and, using bar codes, easily assign new data to tire record when it is mounted to a wheel, repaired, or disposed."
+        },
+        {
+          "type": "step",
+          "text": "3. Cost tracking  -monitors expenses associated with tires, including the cost of new tires, repairs and disposals, to understand which tires perform best for your fleet."
+        },
+        {
+          "type": "step",
+          "text": "4. Axle schema configurator - enables Fleet Managers to integrate detailed axle information by vehicle with tire data to associate the location of the tire with wear and tear."
+        },
+        {
+          "type": "step",
+          "text": "5. Preventive maintenance schedules - create work orders like tire rotations or replacements based on tire pressure, time, or distance-based conditions to reduce the risk of accidents and costly repairs."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Prerequisites."
+    },
+    {
+      "type": "section",
+      "title": "Step 1. Set up Axle Schema.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Before you are able to track and manage tires in the application, an axle schema must be defined for the vehicle sub categories and tires must be added as parts to your inventory as a new tire record."
+        },
+        {
+          "type": "info",
+          "text": "There are default axle schemas pre-populated in the application, additionally you can create a new schema. For example, the truck sub-category has the Service Truck Axle Schema assigned. This means that all vehicles associated to the truck sub-category will also have the service truck axle schema set as the default."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/78. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Step 2. Add Tires to Inventory.",
+      "content": [
+        {
+          "type": "info",
+          "text": "In order to track tires, there must be tires in the inventory. The Tire Record form populates when adding a new tire record in inventory. Before you can add a tire record,  the Tire Part Types must be defined in inventory settings."
+        },
+        {
+          "type": "info",
+          "text": "Use the tire record form to enter any brand and tire size information to identify the tires in your inventory."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/79. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Step 3. Install Tires on Vehicle."
+    },
+    {
+      "type": "section",
+      "title": "Add tires on a Work Order.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The Tire Manager is accessed from a work order and this allowsows for easy drag and drop installation and removal of tires from the tire bay to the vehicle."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/80. png."
+        },
+        {
+          "type": "info",
+          "text": "The tire manager efficiently tracks which tires have been installed and how many kilometers since the install based on the meter readings entered. Use the tire manager to dispose any unused tires, or return them to inventory with the updated value."
+        },
+        {
+          "type": "info",
+          "text": "View the image(s) below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/81. png."
+        },
+        {
+          "type": "info",
+          "text": "Assets with tires installed display the tire tracking icon. Use the tire manager from the asset to view tire details.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/82. png."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Business Intelligence Reports.",
+      "content": [
+        {
+          "type": "info",
+          "text": "There are two standard reports available on tire aging:."
+        },
+        {
+          "type": "info",
+          "text": "Tire Aging by Year."
+        },
+        {
+          "type": "info",
+          "text": "Tire Aging by Asset."
+        },
+        {
+          "type": "info",
+          "text": "Use these reports to monitor tire aging and gather data for tire tracking purposes these reports are accessible from the BI module.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/83. png."
+        },
+        {
+          "type": "info",
+          "text": "Table 1:\nKPI | Description\nNeeded / On Order | For Work\nThis KPI identifies parts required for ongoing work orders. It focuses on parts that are needed for current maintenance activities and their availability status. Needed Definition\nParts that are required for work orders but currently have zero available quantity in inventory. Criteria\nThe part must be required for one or more active work orders. The part must have zero available quantity. We do not consider parts with positive available quantities, even if they are less than the required amount for the work order. On Order Definition\nParts that are required for work orders and have a purchase order created, but still have zero available quantity in inventory. Criteria\nThe part must be required for one or more active work orders. The part must have zero available quantity. A purchase order has been created for the part, indicating an effort to replenish inventory. We do not compare the quantity on the purchase order with the actual need in the work orders. Even if the purchase order quantity is less than the required quantity, the part is shown in this category. Out of Stock\nThis KPI tracks parts that are completely out of stock and assesses whether they meet minimum stock requirements. Needed Definition\nParts that are out of stock, have zero available quantity, and no purchase order has been created for them. Criteria\nThe part must have zero available quantity. Minimum stock levels must be set for the part (minimum stock levels should not be null). No purchase order has been created for the part. On Order Definition\nParts that are out of stock, have zero available quantity, and have a purchase order created. Criteria\nThe part must have zero available quantity. Minimum stock levels must be set for the part. A purchase order has been created for the part. For parts with zero available quantity and a purchase order quantity less than the minimum stock levels, these parts should be listed under the \"Needed\" filter as well, since they do not meet the minimum stock requirement even though a purchase order is in place. Low Stock Description:\nThis KPI identifies parts with inventory levels below the set minimum stock levels and assesses whether purchase orders have been created to address the shortage. Needed Definition\nParts that have available quantities less than the minimum stock levels and for which no purchase order has been created. Criteria\nThe available quantity must be less than the minimum stock levels set for the part. No purchase order has been created for the part. On Order Definition\nParts that have available quantities below the minimum stock levels but have a purchase order created. Criteria\nThe available quantity must be less than the minimum stock levels set for the part. A purchase order has been created for the part. Warehouse Utilization | Warehouse Utilization measures the percentage of bin locations in a warehouse that are actively used for storing parts. This KPI helps assess how effectively the available space is being utilized, indicating whether the warehouse is operating at its optimal capacity. Formula\nWarehouse Utilization(%) = (Number of Bin Locations with Parts / Total Number of Bin Locations ) × 100 \nExample Calculation\nTotal Number of Bin Locations: Suppose the warehouse has 10 bin locations. Number of Bin Locations with Parts: Out of these, 8 bin locations are occupied with parts. Using the formula:\nWarehouse Utilization(%)=(8/10)×100=80%\nIn this example, the Warehouse Utilization is 80%, indicating that 80% of the available bin locations are currently in use. Inventory Totals | On Hand Total\nThis KPI measures the total count of all parts currently available in a specific warehouse. The total quantity of all parts that are physically present in a given warehouse. The on-hand also considers the parts allocated to any work orders but not consumed yet. Unique Parts Total\nThis KPI counts the total number of distinct parts created across the entire organization, regardless of the warehouse or site. Value\nThis KPI calculates the total valuation of all parts within a specific warehouse. Definition\nThe aggregate monetary value of inventory based on the on-hand quantity and cost of each part in a given warehouse. Formula\nTotal Value = Sum of (On-Hand Quantity of Each Part * Cost per Unit of Each Part)\nFrom Last Month\nThis KPI measures the percentage change in the on-hand quantity of parts compared to the previous month. Definition\nThe percentage difference in the total on-hand quantity of parts from the previous month to the current month. This metric indicates how inventory levels have changed over time, providing insight into trends and inventory management effectiveness. Formula\nPercentage Change = [(Current Month On Hand Total - Last Month On Hand Total) / Last Month On Hand Total] * 100\nFor example, if the on-hand total last month was 500 units and this month it is 600 units, the calculation would be:\nPercentage Change = [(600 - 500) / 500] * 100 = 20%."
+        },
+        {
+          "type": "info",
+          "text": "Table 2:\nFields | Description\nPart ID | Enter a unique part number. You can develop your own part ID system, or you can use the manufacturer’s ID. Description | Enter the description of the item. Part Type | Select the part type. Brand | Select the brand. Brand Model | Select the brand model. Part Status | Select the part's status. Unit of Measure | Select the unit of measure. Starting Qty | Enter the starting quantity. Cost | Enter the cost of the item. Warehouse Part | The part is marked by default; if the part is not a warehouse part, then click the star to de-select it. Add Image | Click the Add Image button. Select the file. Click the Open button to upload it. Add Link | If you want to add a link, then click the Add Link button. The Add Attachment Link dialog displays. In the Attachment Link field, enter the link. Click the Upload Link button."
+        },
+        {
+          "type": "info",
+          "text": "Table 3:\nField | Description\nPart ID | Enter a unique part number. You can develop your own part ID system, or you can use the manufacturer’s ID. Description | Enter the description of the item. Part Type | Select the part type. Brand | Select the brand. Brand Model | Select the brand model. Part Status | Select the part's status. Unit of Measure | Select the unit of measure. Warehouse Part | The part is marked by default; if the part is not a warehouse part, then click the star to de-select it. Add Image | Click the Add Image button. Select the file. Click the Open button to upload it. Add Link | If you want to add a link, then click the Add Link button. The Add Attachment Link dialog displays. In the Attachment Link field, enter the link. Click the Upload Link button."
+        },
+        {
+          "type": "info",
+          "text": "Table 4:\nField | Description\nPart ID | Enter a unique part number. You can develop your own part ID system, or you can use the manufacturer’s ID. Description | Enter the description of the item. Part Type | Select the part type. Brand | Select the brand. Brand Model | Select the brand model. Part Status | Select the part's status. Unit of Measure | Select the unit of measure. Stocked Part | This is checked by default, if the part is not a stocked part, then uncheck it. Starting Qty | Enter the starting quantity. Cost | Enter the cost of the part. Warehouse Part | The part is marked by default; if the part is not a warehouse part, then click the star to de-select it. Add Image | Click the Add Image button. Select the file. Click the Open button to upload it. Add Link | If you want to add a link, then click the Add Link button. The Add Attachment Link dialog displays. In the Attachment Link field, enter the link. Click the Upload Link button. Component - Warranty Rules\nDate Based | From the Date Based drop-down, selected either: Years, Months, or Days. In the Number field, enter the number. Meter Based | From the Meter Based drop-down, select the measurement. In the Number field, enter the number. Warranty Note | In the Warranty Note field, enter the warranty information."
+        },
+        {
+          "type": "info",
+          "text": "Table 5:\nField | Description\nPart # | Enter the unique part number. Serialized | Check the Serialized check box if you want the part to track warranty information and serial numbers. Description | Enter the description of the part. Type | Select the type of part. Brand | Select the brand of the part. Brand Model | Select the brand model of the part. Status | Select the status of the part. Custom Fields | Any custom fields that are set up will display here."
+        },
+        {
+          "type": "info",
+          "text": "View the image below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/67. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/68. png."
+        },
+        {
+          "type": "info",
+          "text": "View the image below:.",
+          "image_path": "https://github. com/SavvyGaikwad/img/blob/main/InventorySettings/69. png."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "document_title": "User Personal Profile Settings.",
+  "content": [
+    {
+      "type": "section.",
+      "title": "User Personal Profile Settings."
+    },
+    {
+      "type": "section.",
+      "title": "Update your Profile.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Your profile contains the following areas:."
+        },
+        {
+          "type": "info.",
+          "text": "Upload a profile image."
+        },
+        {
+          "type": "info.",
+          "text": "Personal Info."
+        },
+        {
+          "type": "info.",
+          "text": "Preferences - this contains settings for Language (Region) Override, Time Zone Override, Active Records on the Planning Board, Notification Sounds, and Entity Selection/ Preferred Warehouse. Learn more in Update your Preferences."
+        },
+        {
+          "type": "info.",
+          "text": "Subscriptions."
+        },
+        {
+          "type": "info.",
+          "text": "Your profile lets you view and update your contact information, as well as verify the mobile devices that can be registered to your user name."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Access your Profile.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "You can access your profile from the Settings module or from the application's header."
+        },
+        {
+          "type": "step.",
+          "text": "1. Settings Module."
+        },
+        {
+          "type": "step.",
+          "text": "2. From the menu, click Settings > Personal Settings > Profile.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/1. png."
+          ]
+        },
+        {
+          "type": "step.",
+          "text": "3. Application Header."
+        },
+        {
+          "type": "step.",
+          "text": "4. Top left corner of the screen, click your Profile Name or Profile Image > Profile.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/2. png."
+          ]
+        },
+        {
+          "type": "info.",
+          "text": "Your profile screen displays the Personal Info tab.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/3. png."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "My Contact Info\nUpdate your address, email, phone number & mobile number.",
+      "content": [
+        {
+          "type": "step.",
+          "text": "1. This is critical information, as your email address is how you receive notifications through Notify."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Mobile Devices.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "When you log in to the Work Companion (Mobile App) on your mobile device, the device will synchronize with the main application. There's a limit of three mobile devices each user can have. If you want to free up a spot for a different device, click the Delete icon can to delete it from your list.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/4. png."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Update your Preferences.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Within your profile, there are several preferences:."
+        },
+        {
+          "type": "info.",
+          "text": "Language (Region) Override."
+        },
+        {
+          "type": "info.",
+          "text": "Time Zone Override."
+        },
+        {
+          "type": "info.",
+          "text": "Only Show Active Records on the Planning Board."
+        },
+        {
+          "type": "info.",
+          "text": "Notification Sound."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Access your Preferences.",
+      "content": [
+        {
+          "type": "step.",
+          "text": "1. From the top left corner of the screen, click your Profile Name or Image > Preferences."
+        },
+        {
+          "type": "info.",
+          "text": "Your profile screen displays the Preferences tab.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/5. png."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Language (Region) Override.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "You can override the default Company Locale setting in your preferences. For example, if you company's default is English (United States) and you want to view the application in Français then you can change this to display the language."
+        },
+        {
+          "type": "step.",
+          "text": "1. From the Language (Region) Override drop-down,select the language."
+        },
+        {
+          "type": "step.",
+          "text": "2. Click the Save Changes button and the application now displays the selected language."
+        },
+        {
+          "type": "info.",
+          "text": "This only affects your own user profile and is not a global setting."
+        },
+        {
+          "type": "info.",
+          "text": "Any manually entered information by a user remains in the original language and is not displayed in the selected language."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Time Zone Override.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Each user can set their own time zone override which will override the time zone chosen by the company."
+        },
+        {
+          "type": "info.",
+          "text": "For example: Your company is in Texas, USA, and sets the database Time Zone to Central. However, you work remotely in Florida, USA. Since you want to see all the entries displayed in the Eastern Time zone, you use the Time Zone Override, to override what the company default displays."
+        },
+        {
+          "type": "step.",
+          "text": "1. From the Time Zone Override drop-down, select the time zone."
+        },
+        {
+          "type": "step.",
+          "text": "2. Click the Save Changes button."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Update your Site and preferred Warehouse.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Within your profile, is where you can enable or disable the Entity/Site selection and your preferred Warehouse."
+        },
+        {
+          "type": "info.",
+          "text": "This is useful as your company may have several sites and you work at one site. In your preferences you can enable Site A and then disable the other sites. If you moved to Site B, then it is easy to disable Site A and then enable Site B."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Access your Preferences.",
+      "content": [
+        {
+          "type": "step.",
+          "text": "1. From the top left corner of the screen, click your Profile Name or Image > Preferences."
+        },
+        {
+          "type": "info.",
+          "text": "Your profile screen displays the Preferences tab.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/6. png."
+          ]
+        },
+        {
+          "type": "info.",
+          "text": "This is where you need to add the entites/sites you need access to. Your sites are set up by your Administrator."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Enable Sites and Warehouse.",
+      "content": [
+        {
+          "type": "step.",
+          "text": "1. Review the list of entites/sites and click the toggle ON to enable access."
+        },
+        {
+          "type": "step.",
+          "text": "2. For the entites/sites, from the Default drop-down, select the warehouse/ parts room."
+        },
+        {
+          "type": "info.",
+          "text": "The settings are saved automatically."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Change your Password.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Changing your password is easy. Just follow the steps below."
+        },
+        {
+          "type": "info.",
+          "text": "To change your password, you must know the current password. If you don't know your current password, you need to contact your Administrator."
+        },
+        {
+          "type": "step.",
+          "text": "1. Navigate to Settings > Personal Setting."
+        },
+        {
+          "type": "step.",
+          "text": "2. Click the Change Password icon."
+        },
+        {
+          "type": "step.",
+          "text": "3. Enter the Current Password, then enter New Password, and Re-type New Password and then click Change Password."
+        },
+        {
+          "type": "info.",
+          "text": "Password requirements for are:."
+        },
+        {
+          "type": "info.",
+          "text": "Minimum of 8 characters."
+        },
+        {
+          "type": "info.",
+          "text": "At least one Capital and one lower-case letter."
+        },
+        {
+          "type": "info.",
+          "text": "At least 1 number.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/7. gif."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Forgot Password. How to Reset Your Password.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Forgetting your password happens more often than you think. Resetting it is easy. Follow the steps below to reset your password."
+        },
+        {
+          "type": "step.",
+          "text": "1. First, request a password, click the Forgot Password link."
+        },
+        {
+          "type": "step.",
+          "text": "2. In the Email field, enter your UserID."
+        },
+        {
+          "type": "step.",
+          "text": "3. Click the Send button. An email with a password link will be sent to the email address listed for that UserID."
+        },
+        {
+          "type": "info.",
+          "text": "From the email click the reset password link."
+        },
+        {
+          "type": "info.",
+          "text": "Create a new password, then confirm your new password."
+        },
+        {
+          "type": "info.",
+          "text": "Password requirements:."
+        },
+        {
+          "type": "info.",
+          "text": "Minimum of 8 characters."
+        },
+        {
+          "type": "info.",
+          "text": "At least one Capital and one lower case letter."
+        },
+        {
+          "type": "info.",
+          "text": "At least 1 number."
+        },
+        {
+          "type": "info.",
+          "text": "When complete, you will be automatically be logged in.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/UserPersonalProfileSettings/8. gif."
+          ]
+        }
+      ]
+    }
+  ]
+}

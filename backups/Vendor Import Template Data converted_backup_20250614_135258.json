@@ -1,0 +1,33 @@
+{
+  "document_title": "Vendor Import Template Data.",
+  "content": [
+    {
+      "type": "section.",
+      "title": "Vendor Import Template Data."
+    },
+    {
+      "type": "section.",
+      "title": "General Information.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Do not change the column headers in Row 1 as this is used to complete the upload."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Data Columns.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "The table below lists the columns and which columns are required or optional."
+        },
+        {
+          "type": "info.",
+          "text": "Table 1:\nColumn Name | Column Required | Max Length | Notes\nVendor ID | Yes | 100 | Unique identifier for a vendor. If the vendor doesn't exist in the sytem then the new vendor will be uploaded. Vendor Name | Yes | 50 | Full name of the vendor. Preferred Name | 50\nVendor Type | 100\nEmail Address | 100\nURL | 60\nUsed in Work Orders\nPhone\nAddress Line 1 | 50\nAddress Line 2 | 50\nCity | 30\nState/Province\nZip/Postal | 16\nStatus | Yes | 24\nLead Time (Days)\nLabor Rate | Hourly rate he vendor charges if they can be assigned labor on work orders. Default Sales Tax ID | 24."
+        }
+      ]
+    }
+  ]
+}

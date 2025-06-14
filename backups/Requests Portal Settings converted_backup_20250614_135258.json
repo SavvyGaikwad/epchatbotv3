@@ -1,0 +1,269 @@
+{
+  "document_title": "Requests Portal Settings.",
+  "content": [
+    {
+      "type": "section.",
+      "title": "Request Portal Admin Settings."
+    },
+    {
+      "type": "section.",
+      "title": "Create a Rule to route the Work Request.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "You can use this to automate requests to become work requests."
+        },
+        {
+          "type": "step.",
+          "text": "1. Navigate to Settings."
+        },
+        {
+          "type": "step.",
+          "text": "2. Under the Tools and Support heading, click the Portal icon. The Portal screen displays.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/1. png."
+          ]
+        },
+        {
+          "type": "step.",
+          "text": "3. Click the Request Routing button. The Rules dialog displays.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/2. png."
+          ]
+        },
+        {
+          "type": "step.",
+          "text": "4. Click the + icon.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/3. png."
+          ]
+        },
+        {
+          "type": "step.",
+          "text": "5. In the Rule Title field, enter the name of the rule."
+        },
+        {
+          "type": "step.",
+          "text": "6. In the Description field, enter the description of the rule."
+        },
+        {
+          "type": "step.",
+          "text": "7. When."
+        },
+        {
+          "type": "step.",
+          "text": "8. The When drop-down, defaults to a request is created."
+        },
+        {
+          "type": "step.",
+          "text": "9. Click Add a condition.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/4. png."
+          ]
+        },
+        {
+          "type": "step.",
+          "text": "10. Select either: Request Purpose, Site, Priority, Asset Category, Asset Class, or Issue Description."
+        },
+        {
+          "type": "step.",
+          "text": "11. Select either: equals, does not equal, is one of, or is not one of."
+        },
+        {
+          "type": "step.",
+          "text": "12. Then, depending on your selection, either enter the value OR select a value."
+        },
+        {
+          "type": "step.",
+          "text": "13. If you want to add another condition, you can repeat steps 8 to 11. Note that this adds another AND condition, so this means both conditions must be met."
+        },
+        {
+          "type": "step.",
+          "text": "14. Then."
+        },
+        {
+          "type": "step.",
+          "text": "15. The Then drop-down, defaults to create a work order."
+        },
+        {
+          "type": "step.",
+          "text": "16. Click Add a default value.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/5. png."
+          ]
+        },
+        {
+          "type": "step.",
+          "text": "17. From the set drop-down, select either: Work Type, Priority, Due Date (# of days), or Trigger down time event."
+        },
+        {
+          "type": "step.",
+          "text": "18. Then, depending on your selection, either enter the value OR select a value."
+        },
+        {
+          "type": "step.",
+          "text": "19. If you want to add another condition, you can repeat steps 13 to 16."
+        },
+        {
+          "type": "step.",
+          "text": "20. Click the Create Rule button."
+        },
+        {
+          "type": "info.",
+          "text": "The rules is saved."
+        },
+        {
+          "type": "info.",
+          "text": "If you no longer need a rule, then click the Delete icon."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Create a Work Request Portal.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "One of the main ways to create a Work Request is through a Work Request Portal. This allows users to go to a specifically created URL and submit a Work Request."
+        },
+        {
+          "type": "step.",
+          "text": "1. Navigate to Settings."
+        },
+        {
+          "type": "step.",
+          "text": "2. Under the Tools and Support heading, click the Portal icon."
+        },
+        {
+          "type": "step.",
+          "text": "3. Click the Save drop-down and select New."
+        },
+        {
+          "type": "info.",
+          "text": "Complete the General Settings fields:."
+        },
+        {
+          "type": "info.",
+          "text": "Complete the Help and Contact fields:."
+        },
+        {
+          "type": "info.",
+          "text": "Complete the Field Selection fields:."
+        },
+        {
+          "type": "info.",
+          "text": "Complete the Work Order fields:."
+        },
+        {
+          "type": "step.",
+          "text": "4. Click the Save button."
+        },
+        {
+          "type": "info.",
+          "text": "Custom fields can be added after the new Portal has been saved.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/6. gif."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Create a Work Request through the Request Portal.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "The Work Request Portal lets employees (outside the maintenance staff) create work requests."
+        },
+        {
+          "type": "step.",
+          "text": "1. In a browser, enter your company's Request Portal's URL. If you do not know the URL for your company's Request Portal, reach out to your Administrator or see Find your Company's Request Portal URL."
+        },
+        {
+          "type": "step.",
+          "text": "2. Click on New Request button. The New Request form displays."
+        },
+        {
+          "type": "step.",
+          "text": "3. In the Subject field, enter a brief description of the request."
+        },
+        {
+          "type": "step.",
+          "text": "4. In the Detail Description field, enter a more in-depth description of the request."
+        },
+        {
+          "type": "step.",
+          "text": "5. From the Entity drop-down, select an entity."
+        },
+        {
+          "type": "step.",
+          "text": "6. From the Location drop-down, select the location the request originates from."
+        },
+        {
+          "type": "step.",
+          "text": "7. From the Equipment Number drop-down, select the asset. If this request is not for an asset, then leave this blank."
+        },
+        {
+          "type": "step.",
+          "text": "8. From the Priority drop-down, select the priority level."
+        },
+        {
+          "type": "step.",
+          "text": "9. If you have an attachment, such as a photo, then click the Add Attachment button to upload the attachment OR drag and drop the attachment to upload it."
+        },
+        {
+          "type": "step.",
+          "text": "10. If you have a link, then click the Add Link button to include the URL."
+        },
+        {
+          "type": "step.",
+          "text": "11. Click the Create button.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/7. gif."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Find your Company's Request Portal URL.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "The Work Request Portal lets employees (outside the maintenance staff) create work requests. When your company has set up the portal, you will need the URL to promote to your employees so that they can go to the specific URL."
+        },
+        {
+          "type": "info.",
+          "text": "Below details where you can find the URL."
+        },
+        {
+          "type": "step.",
+          "text": "1. From the menu, click Settings and then click the Portal icon."
+        },
+        {
+          "type": "step.",
+          "text": "2. Under the URL section you will see your company’s Request Portal URL link.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/RequestsPortalSettings/8. png."
+          ]
+        },
+        {
+          "type": "info.",
+          "text": "Table 1:\nFields | Description\nPortal Name drop-down | Enter the Work Request Portal's name. The portal name can contain only letters and numbers. URL | This is the specific URL for your Work Request Portal. Portal Type drop-down | Select either:\nSecured - this will make your requesters log into the portal. Open Form - this will be an open portal. When you select Open Form this creates several more forms including Use Captcha, Entity, and Contacts Only. Portal Enabled toggle | Toggle this to On to activate the portal. White Label toggle | Toggle this to On if you do not want the default label on your Work Request Portal."
+        },
+        {
+          "type": "info.",
+          "text": "Table 2:\nField | Description\nDisplay Help Phone toggle and field | If you want to display the help phone number for the requester to call, then click the toggle to On and enter the phone number. Display Help Email  toggle and field | If you want to display the an email for the requester to email, then click the toggle to On and enter the email address. Display Twitter Link toggle and field | If you want to display the your Twitter handle, then click the toggle to On and enter the Twitter handle. Display Facebook Link toggle and field | If you want to display the your Facebook link, then click the toggle to On and enter the Facebook username."
+        },
+        {
+          "type": "info.",
+          "text": "Table 3:\nField | Description\nAllow Asset Lookup toggle | Toggle this to On if you want to allow the requester to look up a specific asset. Asset Label field | Enter in a asset label to rename an asset to a different term that may be more suitable to your business. Child Asset Label field | Enter in a child asset label to rename a child asset to a different term that may be more suitable to your business. Require Asset toggle | Toggle this to On if you want to require the asset when submitting a Work Request. Open Form creates several more forms including Entity Label, Phone Field, Require Phone, Name Field, Require Name, Require Description, Request Form Title and Welcome Message."
+        },
+        {
+          "type": "info.",
+          "text": "Table 4:\nField | Description\nAdd New button | Open Form doesn't show the Work Order Fields; these will only display in a Secured Portal."
+        }
+      ]
+    }
+  ]
+}

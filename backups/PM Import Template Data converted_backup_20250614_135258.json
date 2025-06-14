@@ -1,0 +1,39 @@
+{
+  "document_title": "PM Import Template Data.",
+  "content": [
+    {
+      "type": "section.",
+      "title": "PM Import Template Data.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Our Implementation team can use this import to populate the PMs."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "General Information.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "Do not change the column headers in Row 1 as this is used to complete the upload."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Data Columns.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "The table below lists the columns and which columns are required or optional."
+        },
+        {
+          "type": "info.",
+          "text": "Table 1:\nColumn Name | Column Required | Max Length | Notes\nMaintenance Plan | Yes | 24 | Assets that get associated at this level will automatically be assigned all PMs tied to this MP. PMs can also be linked together within a maintenance plans so tasks carry over between them. PM | Yes | 24 | The frequency of the maintenance and specific tasks are associated at the PM level. Service Task | Yes | 24 | Specific items to be checked off by the technician when doing the preventive maintenance."
+        }
+      ]
+    }
+  ]
+}

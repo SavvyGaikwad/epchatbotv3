@@ -1,0 +1,115 @@
+{
+  "document_title": "FAQs.",
+  "content": [
+    {
+      "type": "section",
+      "title": "FAQs.",
+      "content": [
+        {
+          "type": "step",
+          "text": "1. Q. Can the application interface with other software applications."
+        },
+        {
+          "type": "info",
+          "text": "A. The application is able to communicate with other software applications through our Connectors and our https://www. managerplus. com/solution/api. To see our full current list of Connectors click https://www. managerplus. com/solution/connectors."
+        },
+        {
+          "type": "step",
+          "text": "2. Q. Will the application ever use my data."
+        },
+        {
+          "type": "info",
+          "text": "A. No. The application will only access a clients software when directed to by the client."
+        },
+        {
+          "type": "step",
+          "text": "3. Q. Who can have access to the Software."
+        },
+        {
+          "type": "info",
+          "text": "A. Only those you allow access to will be able to view and or edit items within the application. There are many reasons for this, the most important is for your own data security and the second is for data cleanliness."
+        },
+        {
+          "type": "step",
+          "text": "4. Q. Is there a mobile app."
+        },
+        {
+          "type": "info",
+          "text": "A. Yes, ManagerPlus Mobile allows you to work functionally in your database in a connected or disconnected state. The disconnected state allows you to work on the go and then syncs your data when you are back in a connected state."
+        },
+        {
+          "type": "step",
+          "text": "5. Q. How is the application licensed/What is a “user” license."
+        },
+        {
+          "type": "info",
+          "text": "A. User licenses determine which individuals in an organization can access the application, as well as their level of access. The following is a breakdown of the different user types available."
+        },
+        {
+          "type": "step",
+          "text": "6. Q. What is a \"Named\" User."
+        },
+        {
+          "type": "info",
+          "text": "A. A named user can access anything in the program. This type of license is “used up” when the named user is created, and it is generally designated for one specific person. The named user can only log in at one place at any given time."
+        },
+        {
+          "type": "step",
+          "text": "7. Q. What is a \"Concurrent\" User. (Desktop Only)."
+        },
+        {
+          "type": "info",
+          "text": "A. A concurrent user license is “used up” when one of the users actually logs in, and is released when they log out. One license is not designated for a specific person, and could thus support multiple users, but only one person can log in at any given time. These users can only access the main application."
+        },
+        {
+          "type": "step",
+          "text": "8. Q. What is a \"Mobile\" User."
+        },
+        {
+          "type": "info",
+          "text": "A. Mobile users work like named users, but mobile users are limited to the mobile module."
+        },
+        {
+          "type": "step",
+          "text": "9. Q. What is a \"Mobile + Concurrent\" User. (Desktop Only)."
+        },
+        {
+          "type": "info",
+          "text": "A. If you have concurrent users available, then a mobile user can log into the main application. When the mobile user does log into the main application, it “uses up” a concurrent user."
+        },
+        {
+          "type": "step",
+          "text": "10. Q. What are \"Work Requests\" Users."
+        },
+        {
+          "type": "info",
+          "text": "A. Work Requests users are unlimited with purchase of the Work Requests module. These users can only access the work requests tools (mobile app, website, email), and cannot access the full program."
+        },
+        {
+          "type": "step",
+          "text": "11. Q. How do I reset my password if I have forgotten it."
+        },
+        {
+          "type": "info",
+          "text": "A. If you need to reset your password, you must either contact your company's system admin to reset your password or you can call ourTechnical Support team to be issued a temporary admin password."
+        },
+        {
+          "type": "step",
+          "text": "12. Q. How do I change my password."
+        },
+        {
+          "type": "info",
+          "text": "A. If you want to change your password, go to file setup in the application and select from the drop down menu the change password option."
+        },
+        {
+          "type": "step",
+          "text": "13. Q. What is Work Requests, and how does it work."
+        },
+        {
+          "type": "info",
+          "text": "A. Work Requests is the work order request module. This application allows non-users to submit “work requests” that can be processed into work orders within the system. Additionally, logs (i. e. , meters such as hours, miles, etc. )."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "document_title": "Marketplace.",
+  "content": [
+    {
+      "type": "section.",
+      "title": "Marketplace.",
+      "content": [
+        {
+          "type": "info.",
+          "text": "The Marketplace is the hub where all plugins are managed within the application. Use Marketplace to improve your work according to your needs. This section lets you:."
+        },
+        {
+          "type": "info.",
+          "text": "Add or remove plugins."
+        },
+        {
+          "type": "info.",
+          "text": "Learn more about each plugin."
+        },
+        {
+          "type": "info.",
+          "text": "Optimize your work by selecting which plugins to use."
+        }
+      ]
+    },
+    {
+      "type": "section.",
+      "title": "Access Marketplace.",
+      "content": [
+        {
+          "type": "step.",
+          "text": "1. From the menu, click Settings."
+        },
+        {
+          "type": "step.",
+          "text": "2. Under the Tools and Support section, click Marketplace.",
+          "image_path": [
+            "https://github. com/SavvyGaikwad/img/blob/main/Marketplace/1. png."
+          ]
+        },
+        {
+          "type": "info.",
+          "text": "The available plugins are:."
+        },
+        {
+          "type": "info.",
+          "text": "Plugins can be installed or they can be uninstalled."
+        },
+        {
+          "type": "info.",
+          "text": "Uninstall plugin."
+        },
+        {
+          "type": "step.",
+          "text": "3. Click the Installed button. The Uninstall Feature dialog displays the message, \"This action will disable the feature and take out functionalities that you may currently be using. \"."
+        },
+        {
+          "type": "step.",
+          "text": "4. Click the Uninstalled Feature button. The plugin is removed and the button displays \"Install\"."
+        },
+        {
+          "type": "info.",
+          "text": "Install plugin."
+        },
+        {
+          "type": "step.",
+          "text": "5. Click the Install button and the plugin is installed and the button displays \"Installed\"."
+        },
+        {
+          "type": "info.",
+          "text": "Table 1:\nPlugin | Default Plugin | Description\nAPI | Installed | With our open API we want you to get the most out of Eptura Asset. And by making it flexible, expandable, connectable, and with API development—integral, we want to be the last asset management solution you’ll ever need. Asset Down Time | Needs to be installed | Part of the New Inspection Process, we are bringing downtime into the picture. Downtime will bring the Asset into a non-operable state, which will be indicated to Users and Operators. Key Benefits: Track Downtime on assets Allow inspections or work orders to bring assets down Give deeper reporting on Asset Utilization, Asset Up Time, Asset Mean Time to Failure Create better Safety processes around asset operations\nBusiness Intelligence (BI) | Installed | Gain new insights into your business operations with the NEW Eptura Asset Business Intelligence Tool. This is your one source for analyzing data fast and easy in a dynamic and intuitive way. Eptura Asset Business Intelligence will transform the way your organization solves tangible problems through integrated business insights, fast and easy data analysis, and automated & specialized reporting. Classic | Installed | Access to some of our classic modules on our classic platform. Embedded into lightning for ease of use. Connectors | Needs to be installed | No more jumping from program to program. Eptura Asset Connectors enable Eptura Asset to share data with the other business applications you use, making it easier to get more done in one place. Planning Board | Installed | Calendar view of your crew and what they have planned for the day, week, or month. Easily drag and drop work on their calendar and publish changes that will be pushed to their mobile app. Purchase Orders | Installed | Manage Purchase Orders to replenish and receive parts/inventory or communicate intention to purchase services from a Vendor. Multi Site Toolkit | Installed | Allows for multi site functionality, multi warehouse, & security roles to expand or restrict access across the company. Parent Child Assets | Needs to be installed | Linking one asset to another can have several benefits. This feature allows you to connect assets to another, with inheriting meter/log data, roll up cost breakdown, and shared movement across locations/sites. Labor Codes | Installed | This feature allows you to create multiple labor codes and rates that are able to be used across the application, but can be overridden at the department or contact level. Learn more in Configure Labor Codes. Clock I/O - Work Order | Installed | Want to get more accurate on how long certain tasks take to complete on a work order. Want to stop guessing when you started or stopped working on something. Enabling this feature will allow you to clock in on a work order task, track the time, and then clock out. This will auto add a labor line to your work order and ultimately help you track costs for your maintenance. Vendor Portal | Installed | Mobilize an outsourced work force. This feature puts your work orders in the hands of your Vendors in an easy, fast mobile friendly interface. They can do the work and easily submit an invoice when they are done. Components | Installed | Components are serialized inventoried parts that may have warranty information. Create components for items that have a warranty or when it is critical to know how long they have been installed on an asset. Customers | Needs to be installed | Manage your list of customers. SSO (Single Sign On) | Installed | SSO options allow you to utilized your active directory to manage users and login credentials. Invoicing (Receivables) | Needs to be installed | Create invoices from work orders or on demand. Markup parts and services and track receivable invoices from your customers. Tire Tracking | Premium | Tire Tracking needs to make some modifications to your application settings to ensure data accuracy\nAlternate Parts | Needs to be installed | Use this feature to choose backup items for any piece in your inventory. If the part you first chose is out of stock when you're filling an order, you can easily pick one of your backups instead."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "document_title": "Asset Import Template Data.",
+  "content": [
+    {
+      "type": "section",
+      "title": "Asset Import Template Data."
+    },
+    {
+      "type": "section",
+      "title": "General Information.",
+      "content": [
+        {
+          "type": "info",
+          "text": "Do not change the column headers in Row 1 as this is used to complete the upload."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Data Columns.",
+      "content": [
+        {
+          "type": "info",
+          "text": "The table below lists the columns and which columns are required or optional."
+        },
+        {
+          "type": "info",
+          "text": "Table 1:\nColumn Name | Column Required | Max Length | Notes\nAsset ID | Yes | 100 | Unique identifier for your asset. This can be alpha, numeric, or combination. Duplicates are not allowed. Description | Yes | 100 | Brief description of the asset. Make sure you use a consistent description to help users search for assets. Asset Group | Yes | 100 | Shows where the asset physically is located or the department/division it belongs to. It helps maintenance know where to go to complete a repair. Asset Category | Yes | 100 | The asset category groups and asset types together to separate and distinguish the log types and custom fields. We recommend that you do not create a lot of categories. Asset Type | Yes | 100 | The asset type (subcategory)\nFor example:\nBudget Group | Yes | 24\nDefault Budget | Yes | This is the budget which is used to track expenses. Budgets can be Departments, Job Codes, or Operations. Status | Yes | 24 | This is used to determine if the asset is Active or Inactive. Vendor | 100 | Unique identifier for a vendor. If the vendor doesn't exist in the sytem then the new vendor will be uploaded. Customer | 100 | Unique identifier for a customer. If the customer doesn't exist in the sytem then the new vendor will be uploaded. Make | The make of the asset. Model | 32 | The model name or number of the asset. Year | 4 | The year the asset was manufactured. Serial | 32 | Used for either Serial Number or VIN. Barcode-Tag | 50\nPurchase Cost | Numeric | Cost of the asset when it was purchased. Purchase Date | Date | The date the asset was purchased. In Service Date | Date | The date of the vehicle was put to use after the purchase. Useful Life(Months) | Numeric\nSalvage Value | Numeric."
+        }
+      ]
+    }
+  ]
+}
